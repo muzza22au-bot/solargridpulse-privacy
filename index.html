@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SolarGridPulse — Privacy Policy | Outback Telemetry</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #38bdf8;
+      --border: #30363d;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card: #ffffff;
+        --text: #1f2328;
+        --muted: #59636e;
+        --accent: #0969da;
+        --border: #d0d7de;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.25rem 2rem;
+    }
+    h1 { margin-top: 0; font-size: 1.85rem; line-height: 1.25; }
+    h2 { margin-top: 2rem; font-size: 1.2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+    p, li { color: var(--text); }
+    .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.5rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.35rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy — SolarGridPulse</h1>
+    <p class="meta">
+      <strong>Developer:</strong> Outback Telemetry (ABN 75 095 445 388)<br />
+      <strong>Effective Date:</strong> November 21, 2026<br />
+      <strong>Contact:</strong> <a href="mailto:muzza22au+solargridpulsebugs@gmail.com">muzza22au+solargridpulsebugs@gmail.com</a>
+    </p>
+
+    <p>
+      SolarGridPulse is built with a <strong>local-first</strong> architecture. Your solar, battery,
+      and property telemetry stays on your own network and device—Outback Telemetry does not run
+      cloud telemetry servers, display advertising, or sell personal data.
+    </p>
+
+    <h2>1. Information Processed Locally on Your Device</h2>
+    <ul>
+      <li><strong>Inverter &amp; Local Telemetry:</strong> When you connect to a Selectronic SP-PRO, Select.live, Fronius inverter, or SolarGridPulse Web Server on your local Wi-Fi/LAN (or personal VPN), telemetry is fetched directly over your network and displayed on your device. It is never transmitted to Outback Telemetry.</li>
+      <li><strong>App Preferences &amp; Custom Assets:</strong> Your connection settings, Time-of-Use (TOU) tariff schedules, load profiles, 3D node positions, and any custom theme or aerial property photos you choose to import are stored locally on your device.</li>
+      <li><strong>Location Coordinates (Site Setup):</strong> If you enter a site latitude and longitude (or use device location during setup), those coordinates are stored locally to calculate sunrise/sunset times and optional solar forecasts.</li>
+    </ul>
+
+    <h2>2. Optional Third-Party Services</h2>
+    <p>Certain optional features contact third-party services directly from your device only when enabled or configured by you:</p>
+    <ul>
+      <li><strong>Open-Meteo Weather &amp; Solar Forecast:</strong> Sends your configured site latitude and longitude to <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo</a> to retrieve local weather, irradiance, and sunrise/sunset forecasts. No personal identifiers are attached.</li>
+      <li><strong>TankMate Water Tank Monitoring:</strong> If you enter your TankMate UID and API key, the app queries <code>api.tankmate.app</code> directly from your device to display rainwater tank levels.</li>
+      <li><strong>Google Play Billing:</strong> In-app purchases and upgrades are processed securely by Google Play. Outback Telemetry does not collect or store your payment card details.</li>
+    </ul>
+
+    <h2>3. Optional Crash Reporting</h2>
+    <p>
+      If you enable optional crash reporting in Settings, the app sends diagnostic crash logs
+      (stack trace, app version, and Android device/OS version) solely to help Outback Telemetry
+      diagnose and fix bugs. You can toggle this off at any time in Settings.
+    </p>
+
+    <h2>4. Permissions Used</h2>
+    <ul>
+      <li><strong>Local Network / Wi-Fi State:</strong> Used to discover and communicate with your inverter or local SolarGridPulse server on your private LAN.</li>
+      <li><strong>Notifications (Optional):</strong> Used to alert you locally about blackouts, low battery state-of-charge, or sensor thresholds.</li>
+      <li><strong>Photos / Files (Optional):</strong> Used only when you explicitly import a custom theme archive, aerial property photo, or CSV history file.</li>
+    </ul>
+
+    <h2>5. Data Retention &amp; Deletion</h2>
+    <p>
+      Because your configuration, history, and imported themes are stored locally on your device,
+      you can delete them at any time by clearing the app's storage or uninstalling SolarGridPulse.
+      If you have submitted an optional crash report or support email and would like it deleted,
+      contact <a href="mailto:muzza22au+solargridpulsebugs@gmail.com">muzza22au+solargridpulsebugs@gmail.com</a>.
+    </p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy as new features are added. Any updates will be posted on
+      this page with a revised effective date.
+    </p>
+  </main>
+</body>
+</html>
